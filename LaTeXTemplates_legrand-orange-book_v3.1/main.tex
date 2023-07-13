@@ -62,6 +62,8 @@
 %----------------------------------------------------------------------------------------
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \graphicspath{ {./Images/} }
 \begin{document}
 
@@ -146,8 +148,9 @@ $$ \textbf{v} =
 \end{bmatrix} \quad\quad\quad\quad \textbf{w} = \begin{bmatrix} -4.2 \\ 2.5 \end{bmatrix} \quad\quad\quad\quad \textbf{u} = \begin{bmatrix} 2.1 \\ 0 \\ -3  \end{bmatrix}
 $$
 
-Each vector has a \textbf{dimensionality} (i.e.the number of its components) that tells the space in which it lives, denoted as $R^{D}$. Vectors \textbf{v} and \textbf{w} above live in $R^{2}$ while \textbf{u} lives in $R^{3}$.
-The representation is usually column-wise, but we can obtain the row-wise version of a vector by a \textbf{transposition} operation denoted as $\textbf{v}^{T}$, for instance:
+Each vector has a \textbf{dimensionality} (i.e.the number of its components) that tells the space in which it lives, denoted as $R^{D}$. 
+Vectors \textbf{v} and \textbf{w} above live in $R^{2}$ while \textbf{u} lives in $R^{3}$. The representation is usually column-wise, 
+but we can obtain the row-wise version of a vector by a \textbf{transposition} operation denoted as $\textbf{v}^{T}$, for instance:
 
 $$ \textbf{v}^{T} = 
 \begin{bmatrix}
@@ -163,40 +166,54 @@ We can visualize a 2-dimensional vector by plotting it into a cartesian plane, w
 \includegraphics[scale = 0.6]{Images/vector_plot_1.jpg}
 \end{figure}
 
-\subsection*{Vector Operations}\index{Sectioning!Subsections}
-
-Vectors possess a rich set of operations that allow for their manipulation and combination.
-These operations include vector addition, subtraction, scalar multiplication, and the dot product. 
-Understanding these operations is crucial for working with vectors and solving problems in linear algebra and beyond.
-
 \subsection*{Addition and Subtraction}\index{Sectioning!Subsections}
 
 Vector addition is a fundamental operation that combines two vectors to create a new vector. 
-When adding vectors, the resulting vector is obtained by aligning the vectors' tails (starting points) and connecting their arrowheads (end points). 
-The sum of two vectors represents the combined effect of their individual magnitudes and directions, and is calculated by adding their corresponding components.
+When adding vectors, we place the tail of each subsequent vector at the head of the previous vector. The resultant vector is then drawn from the tail of the 
+first vector (usually the origin) to the head of the final vector. The sum of two vectors represents the combined effect 
+of their individual magnitudes and directions, and is calculated by adding their corresponding components.
 If $\textbf{u} = [u_{1}, u_{2}, u_{3}]$ and $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ then $\textbf{u} + \textbf{v} = [u_{1} + v_{1}, u_{2} + v_{2}, u_{3} + v_{3}]$.
-For what regards the vector subtraction we have that: $\textbf{v} - \textbf{u} = \textbf{v} + (- \textbf{u})$.
+For what regards the vector subtraction we have that: $\textbf{v} - \textbf{u} = \textbf{v} + (- \textbf{u})$. For example:
 
 $$
 \begin{bmatrix}
 	7\\
 	2\\
-\end{bmatrix} + \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \end{bmatrix}
+\end{bmatrix} + \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \end{bmatrix} \quad\quad\quad\quad \begin{bmatrix} 7\\2\end{bmatrix} - \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 8 \\ -1 \end{bmatrix}
 $$
 
 \begin{figure}[h]
 	\caption{Addition (red) and subtraction (orange) of the blue and green vectors.}
 	\centering
-	\includegraphics[scale = 0.8]{Images/add_sub_plot.jpg}
+	\includegraphics[scale = 0.55]{Images/add_sub_plot.jpg}
 \end{figure}
 
+\subsection*{Scalar multiplication}\index{Sectioning!Subsections}
+
+Scalar multiplication involves scaling a vector by a scalar, which is a real number. When we multiply a vector by a scalar, the vector's magnitude is multiplied 
+by the scalar value, while its direction remains unchanged. Mathematically, scalar multiplication is performed by multiplying each component of the vector by the scalar. If $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ 
+and $c$ is a scalar, then $c\textbf{v} = [cv_{1}, cv_{2}, cv_{3}]$.
+
+$$
+2\cdot\begin{bmatrix}
+	-2 \\ 2.5
+\end{bmatrix} = \begin{bmatrix} -4 \\5 \end{bmatrix} \quad\quad\quad\quad -2\cdot\begin{bmatrix} -2 \\ 2.5 \end{bmatrix} = \begin{bmatrix} 4 \\ -5 \end{bmatrix}
+$$
+
+\begin{figure}[h]
+	\caption{Green vector scaled by a factor of 2 (left) and -2 (right)}
+	\centering
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[scale = 0.72]{Images/scalarMult.JPG}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[scale = 0.72]{Images/scalarNegMult.JPG}
+	\end{subfigure}
+\end{figure}
 %------------------------------------------------
-
-\section*{Unnumbered Section}
-
-\subsection*{Unnumbered Subsection}
-
-\subsubsection*{Unnumbered Subsubsection}
 
 %----------------------------------------------------------------------------------------
 %	IN-TEXT ELEMENT EXAMPLES CHAPTER
