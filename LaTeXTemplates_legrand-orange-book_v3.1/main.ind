@@ -1,61 +1,61 @@
 \begin{theindex}
 
-  \item Citation, \hyperpage{13}
-  \item Corollaries, \hyperpage{18}
+  \item Citation, \hyperpage{15}
+  \item Corollaries, \hyperpage{20}
 
   \indexspace
 
-  \item Definitions, \hyperpage{17}
+  \item Definitions, \hyperpage{19}
 
   \indexspace
 
-  \item Examples, \hyperpage{18}
-    \subitem Equation, \hyperpage{18}
-    \subitem Text, \hyperpage{18}
-  \item Exercises, \hyperpage{18}
+  \item Examples, \hyperpage{20}
+    \subitem Equation, \hyperpage{20}
+    \subitem Text, \hyperpage{20}
+  \item Exercises, \hyperpage{20}
 
   \indexspace
 
-  \item Figure, \hyperpage{21}
+  \item Figure, \hyperpage{23}
 
   \indexspace
 
-  \item Links, \hyperpage{13}
-  \item Lists, \hyperpage{13}
-    \subitem Bullet Points, \hyperpage{13}
-    \subitem Descriptions and Definitions, \hyperpage{13}
-    \subitem Numbered List, \hyperpage{13}
+  \item Links, \hyperpage{15}
+  \item Lists, \hyperpage{15}
+    \subitem Bullet Points, \hyperpage{15}
+    \subitem Descriptions and Definitions, \hyperpage{15}
+    \subitem Numbered List, \hyperpage{15}
 
   \indexspace
 
-  \item Notations, \hyperpage{17}
+  \item Notations, \hyperpage{19}
 
   \indexspace
 
-  \item Problems, \hyperpage{19}
-  \item Propositions, \hyperpage{18}
-    \subitem Several Equations, \hyperpage{18}
-    \subitem Single Line, \hyperpage{18}
+  \item Problems, \hyperpage{21}
+  \item Propositions, \hyperpage{20}
+    \subitem Several Equations, \hyperpage{20}
+    \subitem Single Line, \hyperpage{20}
 
   \indexspace
 
-  \item Remarks, \hyperpage{18}
+  \item Remarks, \hyperpage{20}
 
   \indexspace
 
   \item Sectioning, \hyperpage{11}
     \subitem Sections, \hyperpage{11}
-    \subitem Subsections, \hyperpage{12}
+    \subitem Subsections, \hyperpage{12, 13}
 
   \indexspace
 
-  \item Table, \hyperpage{21}
-  \item Theorems, \hyperpage{17}
-    \subitem Several Equations, \hyperpage{17}
-    \subitem Single Line, \hyperpage{17}
+  \item Table, \hyperpage{23}
+  \item Theorems, \hyperpage{19}
+    \subitem Several Equations, \hyperpage{19}
+    \subitem Single Line, \hyperpage{19}
 
   \indexspace
 
-  \item Vocabulary, \hyperpage{19}
+  \item Vocabulary, \hyperpage{21}
 
 \end{theindex}

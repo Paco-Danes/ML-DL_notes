@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1689243791 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1689349322 -1
   "./sample.bib" 1689237637 442 68b8f6cb50917872bb3a29f3e28dd3c7 ""
-  "main.bcf" 1689243790 107831 67253a310b81bbf605b748c81fdddf34 "pdflatex"
+  "main.bcf" 1689349321 107831 67253a310b81bbf605b748c81fdddf34 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1689243780 "main.idx" "main.ind" "main" 1689243791 0
-  "main.idx" 1689243790 1181 587fa57118bb5524328b9b46a5609985 "pdflatex"
+["makeindex main.idx"] 1689349020 "main.idx" "main.ind" "main" 1689349322 0
+  "main.idx" 1689349321 1231 975d60cfc58aeae52776621820e73b9b "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1689243786 "c:/Users/User/Desktop/Università/MLDL_book/ML-DL_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1689243791 0
+["pdflatex"] 1689349316 "c:/Users/User/Desktop/Università/MLDL_book/ML-DL_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1689349322 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1689241597 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1689238701 21972 46f3c8f5b6a1a85a515a0425e3be5f1a ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1689238698 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -264,16 +264,16 @@
   "Images/scalarNegMult.JPG" 1689242309 27657 7688d617cf2ea9f9dadaa670f596b7c4 ""
   "Images/vector_plot_1.jpg" 1689237637 50077 85f698d9fd6e4ab7b62aa58737a0abbe ""
   "LegrandOrangeBook.cls" 1689237637 35066 8b54c63dbc2df44de404d2768f953f7c ""
-  "c:/Users/User/Desktop/Università/MLDL_book/ML-DL_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1689243775 27261 d7a0ae0f1f873174e18700d90c66c3ec ""
-  "main.aux" 1689243790 18054 71808fef949ade2a3a769f65ae180e77 "pdflatex"
+  "c:/Users/User/Desktop/Università/MLDL_book/ML-DL_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1689349314 27747 01377be3370075a46874103a6f046538 ""
+  "main.aux" 1689349321 18446 b491ff8ed1e6df143e3a3ab2022a0bb1 "pdflatex"
   "main.bbl" 1689239173 3291 5c460ef3bcb06a439ca62df86250700e "biber main"
-  "main.ind" 1689243780 1197 b304910c4c3110c4062caf05a06e05a7 "makeindex main.idx"
-  "main.lof" 1689243790 786 a66576d01c791adf4d451afac0647df9 "pdflatex"
-  "main.lot" 1689243790 355 6d926f4e111ebf00776430f47ce725f5 "pdflatex"
-  "main.ptc" 1689243790 3276 5f0911de4c69a46e58f65fcbf3c6bbff "pdflatex"
-  "main.run.xml" 1689243790 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
-  "main.tex" 1689243775 27261 d7a0ae0f1f873174e18700d90c66c3ec ""
-  "main.toc" 1689243790 3186 0af9ba189e0b3f0638bd6243b49c1a57 "pdflatex"
+  "main.ind" 1689349020 1201 6b64f7f352b0ede66c44d6cc520f9aa2 "makeindex main.idx"
+  "main.lof" 1689349321 786 b2147644b893f5b915fa0bc7a2f1f7e5 "pdflatex"
+  "main.lot" 1689349321 355 8c7aea3a99aca08ecd7e542140bdb2cc "pdflatex"
+  "main.ptc" 1689349321 3545 44be97f53b66d9665cd5dde05c1caf1f "pdflatex"
+  "main.run.xml" 1689349321 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
+  "main.tex" 1689349314 27747 01377be3370075a46874103a6f046538 ""
+  "main.toc" 1689349321 3455 7a7aea4952cbb2db58cdb977d71dd4aa "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

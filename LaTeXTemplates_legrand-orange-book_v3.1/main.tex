@@ -166,7 +166,7 @@ We can visualize a 2-dimensional vector by plotting it into a cartesian plane, w
 \includegraphics[scale = 0.6]{Images/vector_plot_1.jpg}
 \end{figure}
 
-\subsection*{Addition and Subtraction}\index{Sectioning!Subsections}
+\subsection{Addition and Subtraction}\index{Sectioning!Subsections}
 
 Vector addition is a fundamental operation that combines two vectors to create a new vector. 
 When adding vectors, we place the tail of each subsequent vector at the head of the previous vector. The resultant vector is then drawn from the tail of the 
@@ -188,10 +188,10 @@ $$
 	\includegraphics[scale = 0.55]{Images/add_sub_plot.jpg}
 \end{figure}
 
-\subsection*{Scalar multiplication}\index{Sectioning!Subsections}
+\subsection{Scalar multiplication}\index{Sectioning!Subsections}
 
-Scalar multiplication involves scaling a vector by a scalar, which is a real number. When we multiply a vector by a scalar, the vector's magnitude is multiplied 
-by the scalar value, while its direction remains unchanged. Mathematically, scalar multiplication is performed by multiplying each component of the vector by the scalar. If $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ 
+Scalar multiplication involves scaling a vector by a scalar, which is a real number. The vector's magnitude is multiplied by the scalar value,
+ while its direction remains unchanged (or flipped if the scalar is negative). Mathematically, scalar multiplication is performed by multiplying each component of the vector by the scalar. If $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ 
 and $c$ is a scalar, then $c\textbf{v} = [cv_{1}, cv_{2}, cv_{3}]$.
 
 $$
@@ -213,6 +213,15 @@ $$
 		\includegraphics[scale = 0.72]{Images/scalarNegMult.JPG}
 	\end{subfigure}
 \end{figure}
+
+\subsection{Dot Product}\index{Sectioning!Subsections}
+The dot product, also called inner product, takes two vectors and produces a \textit{scalar value}. It is denoted by a dot $(\cdot)$ and it's the sum 
+of the products of the corresponding components of the two vectors. If $ \textbf{v} = [v_{1}, v_{2}, ..., v_{n}] $ and $ \textbf{w} = [w_{1}, w_{2}, ..., w_{n}] $
+are two vectors in a n-dimensional space, then: 
+$$
+\textbf{v} \cdot \textbf{w} = \sum_{i=1}^{n} v_i w_i
+$$
+
 %------------------------------------------------
 
 %----------------------------------------------------------------------------------------
