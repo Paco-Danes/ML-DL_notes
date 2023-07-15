@@ -136,8 +136,8 @@
 
 \section{Vectors}\index{Sectioning!Sections}
 
-In the vast field of mathematics, vectors play a fundamental role in various branches from physics and engineering to computer science and data analysis.
-A vector can be thought as a ordered sequence of numbers that defines a directed line segment in space, an arrow pointing from one point to another, capturing both the \textbf{magnitude} and 
+In the vast field of mathematics, vectors play a fundamental role in various branches from physics and engineering to computer science and data science.
+A vector can be thought as a ordered sequence of numbers that defines a directed line segment in space, an arrow pointing from one point to another, capturing both the \textbf{magnitude} (its length) and 
 the \textbf{direction} in which it is pointing. We can denote a vector using a bold letter such as " \textbf{\emph{v}} ", and writing down its components, for example: 
 
 
@@ -221,6 +221,31 @@ are two vectors in a n-dimensional space, then:
 $$
 \textbf{v} \cdot \textbf{w} = \sum_{i=1}^{n} v_i w_i
 $$
+For example:
+$$
+\begin{bmatrix}
+	2 \\ 3
+\end{bmatrix} \cdot 
+\begin{bmatrix}
+	4 \\ -1
+\end{bmatrix} = 2 \cdot 4 + 3 \cdot (-1) =  8 - 3 = 5
+$$
+
+We also some important geometric interpretation. The magnitude\footnote{The magnitude is the $l_2$-norm: see next section about vector norms} of a vector \textbf{v} is always denoted as ||\textbf{v}||, and if we indicate the angle between the two vectors as $\theta$ we have another definition for the dot product:
+
+$$
+\textbf{v} \cdot \textbf{w} = ||\textbf{v}|| \cdot ||\textbf{w}|| \cdot \cos(\theta) 
+$$
+And it follows that:
+$$
+\cos(\theta) = \frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||} \quad\quad\quad and \quad\quad\quad \theta = \arccos(\frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||})
+$$
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.6]{Images/dot_product.jpg}
+	\caption{$||\textbf{v}||\cos(\theta)$ is the projection \textbf{v} on \textbf{w}}
+\end{figure}
 
 %------------------------------------------------
 

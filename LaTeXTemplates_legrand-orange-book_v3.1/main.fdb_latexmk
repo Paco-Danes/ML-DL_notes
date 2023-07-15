@@ -1,16 +1,16 @@
 # Fdb version 3
-["biber main"] 1689410039 "main.bcf" "main.bbl" "main" 1689410056
-  "main.bcf" 1689410056 107318 b96cc1e676671c9a8bc1563c2657d253 "pdflatex"
+["biber main"] 1689418604 "main.bcf" "main.bbl" "main" 1689421488
+  "main.bcf" 1689421487 107318 b96cc1e676671c9a8bc1563c2657d253 "pdflatex"
   "sample.bib" 1689157864 423 68b8f6cb50917872bb3a29f3e28dd3c7 ""
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1689410039 "main.idx" "main.ind" "main" 1689410056
-  "main.idx" 1689410056 1231 975d60cfc58aeae52776621820e73b9b "pdflatex"
+["makeindex main.idx"] 1689418604 "main.idx" "main.ind" "main" 1689421488
+  "main.idx" 1689421487 1231 975d60cfc58aeae52776621820e73b9b "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1689410049 "c:/Users/devin/Desktop/Università/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1689410056
+["pdflatex"] 1689421483 "c:/Users/devin/Desktop/Università/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1689421488
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/avantgar/pagd8r.tfm" 1136772254 4840 6a894dde946186de9a64269f0edd24e5 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/avantgar/pagd8t.tfm" 1136772254 7216 ce159066bacd323ac1e4527281f7a233 ""
@@ -259,20 +259,21 @@
   "Images//orange2.jpg" 1689157864 158800 7383cd993ae5eaea1920b9e650bcfaae ""
   "Images//orange3.jpg" 1689157864 163089 478f46331115e18b4a694b6aa5a7544f ""
   "Images/add_sub_plot.jpg" 1689179815 113394 0588629da6680382081c52cd5e5f2ff2 ""
+  "Images/dot_product.jpg" 1689421424 103311 37635b1a4d60afc311ee45821f39b020 ""
   "Images/scalarMult.JPG" 1689410028 27090 69679176194e001e376d125a46bee289 ""
   "Images/scalarNegMult.JPG" 1689410028 27657 7688d617cf2ea9f9dadaa670f596b7c4 ""
   "Images/vector_plot_1.jpg" 1689171458 50077 85f698d9fd6e4ab7b62aa58737a0abbe ""
   "LegrandOrangeBook.cls" 1689157864 34330 8b54c63dbc2df44de404d2768f953f7c ""
-  "c:/Users/devin/Desktop/Università/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1689410028 27747 01377be3370075a46874103a6f046538 ""
-  "main.aux" 1689410056 18446 3947783b4115bc570c45eb7df953f3f0 "pdflatex"
-  "main.bbl" 1689410049 3291 5c460ef3bcb06a439ca62df86250700e "biber main"
-  "main.ind" 1689410039 1201 6b64f7f352b0ede66c44d6cc520f9aa2 "makeindex main.idx"
-  "main.lof" 1689410056 786 b2147644b893f5b915fa0bc7a2f1f7e5 "pdflatex"
-  "main.lot" 1689410056 355 8c7aea3a99aca08ecd7e542140bdb2cc "pdflatex"
-  "main.ptc" 1689410056 3545 44be97f53b66d9665cd5dde05c1caf1f "pdflatex"
-  "main.run.xml" 1689410056 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
-  "main.tex" 1689410028 27747 01377be3370075a46874103a6f046538 ""
-  "main.toc" 1689410056 3455 7a7aea4952cbb2db58cdb977d71dd4aa "pdflatex"
+  "c:/Users/devin/Desktop/Università/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1689421476 28756 eff739857eaa793faa61ef8dc0ab93c0 ""
+  "main.aux" 1689421487 18656 8e87ac7db547e6b9041b0ed2f57a282b "pdflatex"
+  "main.bbl" 1689418606 3291 5c460ef3bcb06a439ca62df86250700e "biber main"
+  "main.ind" 1689418604 1201 6b64f7f352b0ede66c44d6cc520f9aa2 "makeindex main.idx"
+  "main.lof" 1689421487 951 17fb855216ef8cac24e038ebd77823ed "pdflatex"
+  "main.lot" 1689421487 355 5926ead3b4f29d9c76c9a2ee7b0ad57d "pdflatex"
+  "main.ptc" 1689421487 3545 bfc0f850b544b94412f639e423211473 "pdflatex"
+  "main.run.xml" 1689421487 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
+  "main.tex" 1689421476 28756 eff739857eaa793faa61ef8dc0ab93c0 ""
+  "main.toc" 1689421487 3455 e6954fee932d91d40d3d4d16aa6107a1 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.3)  15 JUL 2023 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.3)  15 JUL 2023 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1259,6 +1259,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -1288,12 +1290,12 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 
 ] [10]
 Chapter 1.
-<./Images//numbers.jpg, id=290, 5275.71pt x 2512.38625pt>
+<./Images//numbers.jpg, id=297, 5275.71pt x 2512.38625pt>
 File: ./Images//numbers.jpg Graphic file (type jpg)
 <use ./Images//numbers.jpg>
 Package pdftex.def Info: ./Images//numbers.jpg  used on input line 135.
 (pdftex.def)             Requested size: 597.50787pt x 284.52888pt.
-<Images/vector_plot_1.jpg, id=291, 479.54156pt x 212.29312pt>
+<Images/vector_plot_1.jpg, id=298, 479.54156pt x 212.29312pt>
 File: Images/vector_plot_1.jpg Graphic file (type jpg)
 <use Images/vector_plot_1.jpg>
 Package pdftex.def Info: Images/vector_plot_1.jpg  used on input line 166.
@@ -1301,28 +1303,40 @@ Package pdftex.def Info: Images/vector_plot_1.jpg  used on input line 166.
 [11
 
  <./Images//numbers.jpg> <./Images/vector_plot_1.jpg>]
-<Images/add_sub_plot.jpg, id=302, 417.05812pt x 295.1025pt>
+<Images/add_sub_plot.jpg, id=307, 417.05812pt x 295.1025pt>
 File: Images/add_sub_plot.jpg Graphic file (type jpg)
 <use Images/add_sub_plot.jpg>
 Package pdftex.def Info: Images/add_sub_plot.jpg  used on input line 188.
 (pdftex.def)             Requested size: 229.38268pt x 162.30685pt.
-<Images/scalarMult.JPG, id=303, 278.54062pt x 214.55156pt>
+<Images/scalarMult.JPG, id=308, 278.54062pt x 214.55156pt>
 File: Images/scalarMult.JPG Graphic file (type jpg)
 <use Images/scalarMult.JPG>
 Package pdftex.def Info: Images/scalarMult.JPG  used on input line 208.
 (pdftex.def)             Requested size: 200.54909pt x 154.47699pt.
-<Images/scalarNegMult.JPG, id=304, 278.54062pt x 214.55156pt>
+<Images/scalarNegMult.JPG, id=309, 278.54062pt x 214.55156pt>
 File: Images/scalarNegMult.JPG Graphic file (type jpg)
 <use Images/scalarNegMult.JPG>
 Package pdftex.def Info: Images/scalarNegMult.JPG  used on input line 213.
 (pdftex.def)             Requested size: 200.54909pt x 154.47699pt.
- [12 <./Images/add_sub_plot.jpg> <./Images/scalarMult.JPG> <./Images/scalarNegMult.JPG>] [13] [14
+ [12 <./Images/add_sub_plot.jpg> <./Images/scalarMult.JPG> <./Images/scalarNegMult.JPG>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 234.
+<Images/dot_product.jpg, id=315, 427.5975pt x 358.33875pt>
+File: Images/dot_product.jpg Graphic file (type jpg)
+<use Images/dot_product.jpg>
+Package pdftex.def Info: Images/dot_product.jpg  used on input line 246.
+(pdftex.def)             Requested size: 256.56047pt x 215.0049pt.
+ [13 <./Images/dot_product.jpg>] [14
 
 ]
 Chapter 2.
 File: ./Images//numbers.jpg Graphic file (type jpg)
 <use ./Images//numbers.jpg>
-Package pdftex.def Info: ./Images//numbers.jpg  used on input line 231.
+Package pdftex.def Info: ./Images//numbers.jpg  used on input line 256.
 (pdftex.def)             Requested size: 597.50787pt x 284.52888pt.
 [15] [16] (main.ptc) [17
 
@@ -1330,52 +1344,48 @@ Package pdftex.def Info: ./Images//numbers.jpg  used on input line 231.
 Chapter 3.
 File: ./Images//numbers.jpg Graphic file (type jpg)
 <use ./Images//numbers.jpg>
-Package pdftex.def Info: ./Images//numbers.jpg  used on input line 313.
+Package pdftex.def Info: ./Images//numbers.jpg  used on input line 338.
 (pdftex.def)             Requested size: 597.50787pt x 284.52888pt.
-Package mdframed Info: mdframed works in twoside mode on input line 321.
+Package mdframed Info: mdframed works in twoside mode on input line 346.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 321.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 321.
-Package mdframed Info: mdframed works in twoside mode on input line 333.
+(mdframed)              on input line 346.
+Package mdframed Info: mdframed works in twoside mode on input line 358.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 333.
-Package mdframed Info: mdframed works in twoside mode on input line 343.
+(mdframed)              on input line 358.
+Package mdframed Info: mdframed works in twoside mode on input line 368.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 343.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 357.
+(mdframed)              on input line 368.
 [19
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 379.
+Package mdframed Info: mdframed works in twoside mode on input line 404.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 379.
-Package mdframed Info: mdframed works in twoside mode on input line 428.
+(mdframed)              on input line 404.
+Package mdframed Info: mdframed works in twoside mode on input line 453.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 428.
+(mdframed)              on input line 453.
  [20] [21] [22
 
 ]
 Chapter 4.
-<./Images//orange3.jpg, id=434, 1409.265pt x 666.49pt>
+<./Images//orange3.jpg, id=441, 1409.265pt x 666.49pt>
 File: ./Images//orange3.jpg Graphic file (type jpg)
 <use ./Images//orange3.jpg>
-Package pdftex.def Info: ./Images//orange3.jpg  used on input line 460.
+Package pdftex.def Info: ./Images//orange3.jpg  used on input line 485.
 (pdftex.def)             Requested size: 597.50787pt x 282.5782pt.
-<./Images//creodocs_logo.pdf, id=436, 833.50496pt x 170.09146pt>
+<./Images//creodocs_logo.pdf, id=443, 833.50496pt x 170.09146pt>
 File: ./Images//creodocs_logo.pdf Graphic file (type pdf)
 <use ./Images//creodocs_logo.pdf>
-Package pdftex.def Info: ./Images//creodocs_logo.pdf  used on input line 506.
+Package pdftex.def Info: ./Images//creodocs_logo.pdf  used on input line 531.
 (pdftex.def)             Requested size: 213.39568pt x 43.54533pt.
 File: ./Images//creodocs_logo.pdf Graphic file (type pdf)
 <use ./Images//creodocs_logo.pdf>
-Package pdftex.def Info: ./Images//creodocs_logo.pdf  used on input line 515.
+Package pdftex.def Info: ./Images//creodocs_logo.pdf  used on input line 540.
 (pdftex.def)             Requested size: 426.79135pt x 87.09326pt.
 [23 <./Images//orange3.jpg> <./Images//creodocs_logo.pdf>] [24] [25
 
@@ -1389,10 +1399,10 @@ Package pdftex.def Info: ./Images//creodocs_logo.pdf  used on input line 515.
 
 ]
 Appendix A.
-<./Images//orange2.jpg, id=502, 1300.86pt x 602.25pt>
+<./Images//orange2.jpg, id=509, 1300.86pt x 602.25pt>
 File: ./Images//orange2.jpg Graphic file (type jpg)
 <use ./Images//orange2.jpg>
-Package pdftex.def Info: ./Images//orange2.jpg  used on input line 571.
+Package pdftex.def Info: ./Images//orange2.jpg  used on input line 596.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
 [29
 
@@ -1402,7 +1412,7 @@ Package pdftex.def Info: ./Images//orange2.jpg  used on input line 571.
 Appendix B.
 File: ./Images//orange2.jpg Graphic file (type jpg)
 <use ./Images//orange2.jpg>
-Package pdftex.def Info: ./Images//orange2.jpg  used on input line 579.
+Package pdftex.def Info: ./Images//orange2.jpg  used on input line 604.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
@@ -1413,17 +1423,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35439 strings out of 478351
- 659547 string characters out of 2846868
- 1391470 words of memory out of 3000000
- 52772 multiletter control sequences out of 15000+600000
- 604508 words of font info for 369 fonts, out of 8000000 for 9000
+ 35558 strings out of 478351
+ 661118 string characters out of 2846868
+ 1391471 words of memory out of 3000000
+ 52823 multiletter control sequences out of 15000+600000
+ 626723 words of font info for 428 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,15n,94p,1114b,1343s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 98i,15n,94p,1114b,1341s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\devin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 9079675 bytes).
+Output written on main.pdf (31 pages, 9185984 bytes).
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 150855 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 176460 words of extra memory for PDF output out of 184870 (max. 10000000)
 
