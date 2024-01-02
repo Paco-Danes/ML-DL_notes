@@ -72,15 +72,15 @@
 %----------------------------------------------------------------------------------------
 
 \titlepage % Output the title page
-	{\includegraphics[width=\paperwidth]{background.pdf}} % Code to output the background image, which should be the same dimensions as the paper to fill the page entirely; leave empty for no background image
-	{ % Title(s) and author(s)
-		\centering\sffamily % Font styling
-		{\Huge\bfseries From Math to Machines: A Comprehensive Guide to ML and DL \par} % Book title
-		\vspace{16pt} % Vertical whitespace
-		{\LARGE Covering Calculus, Linear Algebra and Statistics\par} % Subtitle
-		\vspace{24pt} % Vertical whitespace
-		{\huge\bfseries Francesco Danese \par} % Author name
-	}
+{\includegraphics[width=\paperwidth]{background.pdf}} % Code to output the background image, which should be the same dimensions as the paper to fill the page entirely; leave empty for no background image
+{ % Title(s) and author(s)
+	\centering\sffamily % Font styling
+	{\Huge\bfseries From Math to Machines: A Comprehensive Guide to ML and DL \par} % Book title
+	\vspace{16pt} % Vertical whitespace
+	{\LARGE Covering Calculus, Linear Algebra and Statistics\par} % Subtitle
+	\vspace{24pt} % Vertical whitespace
+	{\huge\bfseries Francesco Danese \par} % Author name
+}
 
 %----------------------------------------------------------------------------------------
 %	COPYRIGHT PAGE
@@ -137,49 +137,49 @@
 \section{Vectors}\index{Sectioning!Sections}
 
 In the vast field of mathematics, vectors play a fundamental role in various branches from physics and engineering to computer science and data science.
-A vector can be thought as a ordered sequence of numbers that defines a directed line segment in space, an arrow pointing from one point to another, capturing both the \textbf{magnitude} (its length) and 
-the \textbf{direction} in which it is pointing. We can denote a vector using a bold letter such as " \textbf{\emph{v}} ", and writing down its components, for example: 
+A vector can be thought as a ordered sequence of numbers that defines a directed line segment in space, an arrow pointing from one point to another, capturing both the \textbf{magnitude} (its length) and
+the \textbf{direction} in which it is pointing. We can denote a vector using a bold letter such as " \textbf{\emph{v}} ", and writing down its components, for example:
 
 
-$$ \textbf{v} = 
-\begin{bmatrix}
-	2\\
-	3
-\end{bmatrix} \quad\quad\quad\quad \textbf{w} = \begin{bmatrix} -4.2 \\ 2.5 \end{bmatrix} \quad\quad\quad\quad \textbf{u} = \begin{bmatrix} 2.1 \\ 0 \\ -3  \end{bmatrix}
+$$ \textbf{v} =
+	\begin{bmatrix}
+		2 \\
+		3
+	\end{bmatrix} \quad\quad\quad\quad \textbf{w} = \begin{bmatrix} -4.2 \\ 2.5 \end{bmatrix} \quad\quad\quad\quad \textbf{u} = \begin{bmatrix} 2.1 \\ 0 \\ -3  \end{bmatrix}
 $$
 
-Each vector has a \textbf{dimensionality} (i.e.the number of its components) that tells the space in which it lives, denoted as $R^{D}$. 
-Vectors \textbf{v} and \textbf{w} above live in $R^{2}$ while \textbf{u} lives in $R^{3}$. The representation is usually column-wise, 
+Each vector has a \textbf{dimensionality} (i.e.the number of its components) that tells the space in which it lives, denoted as $R^{D}$.
+Vectors \textbf{v} and \textbf{w} above live in $R^{2}$ while \textbf{u} lives in $R^{3}$. The representation is usually column-wise,
 but we can obtain the row-wise version of a vector by a \textbf{transposition} operation denoted as $\textbf{v}^{T}$, for instance:
 
-$$ \textbf{v}^{T} = 
-\begin{bmatrix}
-	2 & 3
-\end{bmatrix} \quad\quad\quad\quad \textbf{w}^{T} = \begin{bmatrix} -4.2 & 2.5 \end{bmatrix} \quad\quad\quad\quad \textbf{u}^{T} = \begin{bmatrix} 2.1 & 0 & -3  \end{bmatrix}
+$$ \textbf{v}^{T} =
+	\begin{bmatrix}
+		2 & 3
+	\end{bmatrix} \quad\quad\quad\quad \textbf{w}^{T} = \begin{bmatrix} -4.2 & 2.5 \end{bmatrix} \quad\quad\quad\quad \textbf{u}^{T} = \begin{bmatrix} 2.1 & 0 & -3  \end{bmatrix}
 $$
 
-We can visualize a 2-dimensional vector by plotting it into a cartesian plane, where the two components are the shifts in the $x$ and $y$ directions respectively: 
+We can visualize a 2-dimensional vector by plotting it into a cartesian plane, where the two components are the shifts in the $x$ and $y$ directions respectively:
 
 \begin{figure}[h]
-\caption{Vectors $v$ and $w$ graphically.}
-\centering
-\includegraphics[scale = 0.6]{Images/vector_plot_1.jpg}
+	\caption{Vectors $v$ and $w$ graphically.}
+	\centering
+	\includegraphics[scale = 0.6]{Images/vector_plot_1.jpg}
 \end{figure}
 
 \subsection{Addition and Subtraction}\index{Sectioning!Subsections}
 
-Vector addition is a fundamental operation that combines two vectors to create a new vector. 
-When adding vectors, we place the tail of each subsequent vector at the head of the previous vector. The resultant vector is then drawn from the tail of the 
-first vector (usually the origin) to the head of the final vector. The sum of two vectors represents the combined effect 
+Vector addition is a fundamental operation that combines two vectors to create a new vector.
+When adding vectors, we place the tail of each subsequent vector at the head of the previous vector. The resultant vector is then drawn from the tail of the
+first vector (usually the origin) to the head of the final vector. The sum of two vectors represents the combined effect
 of their individual magnitudes and directions, and is calculated by adding their corresponding components.
 If $\textbf{u} = [u_{1}, u_{2}, u_{3}]$ and $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ then $\textbf{u} + \textbf{v} = [u_{1} + v_{1}, u_{2} + v_{2}, u_{3} + v_{3}]$.
 For what regards the vector subtraction we have that: $\textbf{v} - \textbf{u} = \textbf{v} + (- \textbf{u})$. For example:
 
 $$
-\begin{bmatrix}
-	7\\
-	2\\
-\end{bmatrix} + \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \end{bmatrix} \quad\quad\quad\quad \begin{bmatrix} 7\\2\end{bmatrix} - \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 8 \\ -1 \end{bmatrix}
+	\begin{bmatrix}
+		7 \\
+		2 \\
+	\end{bmatrix} + \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \end{bmatrix} \quad\quad\quad\quad \begin{bmatrix} 7\\2\end{bmatrix} - \begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 8 \\ -1 \end{bmatrix}
 $$
 
 \begin{figure}[h]
@@ -191,13 +191,13 @@ $$
 \subsection{Scalar multiplication}\index{Sectioning!Subsections}
 
 Scalar multiplication involves scaling a vector by a scalar, which is a real number. The vector's magnitude is multiplied by the scalar value,
- while its direction remains unchanged (or flipped if the scalar is negative). Mathematically, scalar multiplication is performed by multiplying each component of the vector by the scalar. If $\textbf{v} = [v_{1}, v_{2}, v_{3}]$ 
+while its direction remains unchanged (or flipped if the scalar is negative). Mathematically, scalar multiplication is performed by multiplying each component of the vector by the scalar. If $\textbf{v} = [v_{1}, v_{2}, v_{3}]$
 and $c$ is a scalar, then $c\textbf{v} = [cv_{1}, cv_{2}, cv_{3}]$.
 
 $$
-2\cdot\begin{bmatrix}
-	-2 \\ 2.5
-\end{bmatrix} = \begin{bmatrix} -4 \\5 \end{bmatrix} \quad\quad\quad\quad -2\cdot\begin{bmatrix} -2 \\ 2.5 \end{bmatrix} = \begin{bmatrix} 4 \\ -5 \end{bmatrix}
+	2\cdot\begin{bmatrix}
+		-2 \\ 2.5
+	\end{bmatrix} = \begin{bmatrix} -4 \\5 \end{bmatrix} \quad\quad\quad\quad -2\cdot\begin{bmatrix} -2 \\ 2.5 \end{bmatrix} = \begin{bmatrix} 4 \\ -5 \end{bmatrix}
 $$
 
 \begin{figure}[h]
@@ -215,37 +215,71 @@ $$
 \end{figure}
 
 \subsection{Dot Product}\index{Sectioning!Subsections}
-The dot product, also called inner product, takes two vectors and produces a \textit{scalar value}. It is denoted by a dot $(\cdot)$ and it's the sum 
+The dot product, also called inner product, takes two vectors and produces a \textit{scalar value}. It is denoted by a dot $(\cdot)$ and it's the sum
 of the products of the corresponding components of the two vectors. If $ \textbf{v} = [v_{1}, v_{2}, ..., v_{n}] $ and $ \textbf{w} = [w_{1}, w_{2}, ..., w_{n}] $
-are two vectors in a n-dimensional space, then: 
+are two vectors in a n-dimensional space, then:
 $$
-\textbf{v} \cdot \textbf{w} = \sum_{i=1}^{n} v_i w_i
+	\textbf{v} \cdot \textbf{w} = \sum_{i=1}^{n} v_i w_i
 $$
 For example:
 $$
-\begin{bmatrix}
-	2 \\ 3
-\end{bmatrix} \cdot 
-\begin{bmatrix}
-	4 \\ -1
-\end{bmatrix} = 2 \cdot 4 + 3 \cdot (-1) =  8 - 3 = 5
+	\begin{bmatrix}
+		2 \\ 3
+	\end{bmatrix} \cdot
+	\begin{bmatrix}
+		4 \\ -1
+	\end{bmatrix} = 2 \cdot 4 + 3 \cdot (-1) =  8 - 3 = 5
 $$
 
 We also some important geometric interpretation. The magnitude\footnote{The magnitude is the $l_2$-norm: see next section about vector norms} of a vector \textbf{v} is always denoted as ||\textbf{v}||, and if we indicate the angle between the two vectors as $\theta$ we have another definition for the dot product:
 
 $$
-\textbf{v} \cdot \textbf{w} = ||\textbf{v}|| \cdot ||\textbf{w}|| \cdot \cos(\theta) 
+	\textbf{v} \cdot \textbf{w} = ||\textbf{v}|| \cdot ||\textbf{w}|| \cdot \cos(\theta)
 $$
 And it follows that:
 $$
-\cos(\theta) = \frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||} \quad\quad\quad and \quad\quad\quad \theta = \arccos(\frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||})
+	\cos(\theta) = \frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||} \quad\quad\quad and \quad\quad\quad \theta = \arccos(\frac{\textbf{v} \cdot \textbf{w}}{|\textbf{v}|| \cdot ||\textbf{w}||})
 $$
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale = 0.6]{Images/dot_product.jpg}
 	\caption{$||\textbf{v}||\cos(\theta)$ is the projection \textbf{v} on \textbf{w}}
 \end{figure}
+
+It comes as a conclusion that if \textbf{v} and \textbf{w} are unit vectors, meaning that their norm is equal to 1 (||\textbf{v}|| = ||\textbf{w}|| = 1), then the dot product represents exactly the cosine of the angle between them. The dot product is commutative and can be done only if the vectors have the same dimension.
+
+\subsection{Norms}\index{Sectioning!Subsections}
+Informally, the norm of a vector represents how "big" is the vector. It is a function $||\cdot||$ that maps \textbf{v} to a scalar. For any norm we have the following properties:
+$$||c\textbf{v}|| = |c| \cdot ||\textbf{v}||, \qquad ||\textbf{v} + \textbf{w}|| = ||\textbf{v}|| + || \textbf{w}||, \qquad ||\textbf{v}|| > 0 \quad \forall \textbf{v} \neq \textbf{0}$$
+Where $c$ is a scalar value. Different norms encode different notions of size. The generalized formula, called $\ell_p$ norm is:
+$$||\textbf{x}||_p = (\sum_{i = 1}^{d}|x_i|^p)^{\frac{1}{p}}$$
+We then have the $\ell_1$ norm, also called the \emph{Manhattan distance}:
+$$ ||\textbf{x}||_1 = \sum_{i=1}^{d}|x_i|$$
+And the $\ell_2$ norm, also called the \emph{Euclidean Distance}:
+$$ ||\textbf{x}||_2 = \sqrt{\sum_{i=1}^{d}x_i^2}$$
+Dividing a vector \textbf{v} by its norm is a common operation called \emph{normalizing}, that result in a unit vector pointing in the same direction of \textbf{v} (but with norm = 1):
+$$\hat{\textbf{v}} = \frac{\textbf{v}}{||\textbf{v}||}$$
+\subsection{Matrices}\index{Sectioning!Subsections}
+A matrix is a collection of $n$ column vectors in M-dimension or $m$ row vectors in N-dimension.
+$$
+	\begin{bmatrix}
+		x_{11} & \hdots & \hdots & x_{1n} \\
+		\vdots & \ddots &        & \hdots \\
+		x_{m1} & \hdots & \ddots & x_{mn}
+	\end{bmatrix}
+$$
+The identity matrix is a diagonal matrix where all elements in the diagonal are 1s and all the others are 0s:
+$$ I_3 = diag(1) =
+	\begin{bmatrix}
+		1 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{bmatrix}
+$$
+The trace of a matrix is the sum of the diagonal elements:
+$$trace(A) = \sum_{i}A_{ii}$$
+Transposing a matrix means swapping its rows with its columns; The first row becomes the first column, the second row becomes the second column and so on. We have the following properties:
+$$(A^T)^T = A \qquad (AB)^T = A^T B^T \qquad (A + B)^T = A^T + B^T$$
 
 %------------------------------------------------
 
@@ -275,13 +309,13 @@ Lists are useful to present information in a concise and/or ordered way.
 
 \begin{enumerate}
 	\item First numbered item
-	\begin{enumerate}
-		\item First indented numbered item
-		\item Second indented numbered item
-		\begin{enumerate}
-			\item First second-level indented numbered item
-		\end{enumerate}
-	\end{enumerate}
+	      \begin{enumerate}
+		      \item First indented numbered item
+		      \item Second indented numbered item
+		            \begin{enumerate}
+			            \item First second-level indented numbered item
+		            \end{enumerate}
+	      \end{enumerate}
 	\item Second numbered item
 	\item Third numbered item
 \end{enumerate}
@@ -290,13 +324,13 @@ Lists are useful to present information in a concise and/or ordered way.
 
 \begin{itemize}
 	\item First bullet point item
-	\begin{itemize}
-		\item First indented bullet point item
-		\item Second indented bullet point item
-		\begin{itemize}
-			\item First second-level indented bullet point item
-		\end{itemize}
-	\end{itemize}
+	      \begin{itemize}
+		      \item First indented bullet point item
+		      \item Second indented bullet point item
+		            \begin{itemize}
+			            \item First second-level indented bullet point item
+		            \end{itemize}
+	      \end{itemize}
 	\item Second bullet point item
 	\item Third bullet point item
 \end{itemize}
@@ -346,8 +380,8 @@ This is a theorem consisting of several equations.
 \begin{theorem}[Name of the theorem] % Specify a name/title in square brackets, or leave them out for no title
 	In $E=\mathbb{R}^n$ all norms are equivalent. It has the properties:
 	\begin{align}
-		& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
-		&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
+		 & \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||                            \\
+		 & ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
 	\end{align}
 \end{theorem}
 
@@ -356,7 +390,7 @@ This is a theorem consisting of several equations.
 This is a theorem consisting of just one line.
 
 \begin{theorem} % Specify a name/title in square brackets, or leave them out for no title
-	A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$. 
+	A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$.
 \end{theorem}
 
 %------------------------------------------------
@@ -368,9 +402,9 @@ A definition can be mathematical or it could define a concept.
 \begin{definition}[Definition name] % Specify a name/title in square brackets, or leave them out for no title
 	Given a vector space $E$, a norm on $E$ is an application, denoted $||\cdot||$, $E$ in $\mathbb{R}^+=[0,+\infty[$ such that:
 	\begin{align}
-		& ||\mathbf{x}||=0\ \Rightarrow\ \mathbf{x}=\mathbf{0}\\
-		& ||\lambda \mathbf{x}||=|\lambda|\cdot ||\mathbf{x}||\\
-		& ||\mathbf{x}+\mathbf{y}||\leq ||\mathbf{x}||+||\mathbf{y}||
+		 & ||\mathbf{x}||=0\ \Rightarrow\ \mathbf{x}=\mathbf{0}        \\
+		 & ||\lambda \mathbf{x}||=|\lambda|\cdot ||\mathbf{x}||        \\
+		 & ||\mathbf{x}+\mathbf{y}||\leq ||\mathbf{x}||+||\mathbf{y}||
 	\end{align}
 \end{definition}
 
@@ -384,7 +418,7 @@ A definition can be mathematical or it could define a concept.
 		\item Bounded support $G$;
 		\item Infinitely differentiable;
 	\end{enumerate}
-	a vector space is denoted by $\mathcal{D}(G)$. 
+	a vector space is denoted by $\mathcal{D}(G)$.
 \end{notation}
 
 %------------------------------------------------
@@ -414,15 +448,15 @@ This is an example of a remark.
 \begin{proposition}[Proposition name] % Specify a name/title in square brackets, or leave them out for no title
 	It has the properties:
 	\begin{align}
-		& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
-		&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
+		 & \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||                            \\
+		 & ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
 	\end{align}
 \end{proposition}
 
 \subsection{Single Line}\index{Propositions!Single Line}
 
 \begin{proposition} % Specify a name/title in square brackets, or leave them out for no title
-	Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$. 
+	Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$.
 \end{proposition}
 
 %------------------------------------------------
@@ -434,8 +468,8 @@ This is an example of a remark.
 \begin{example} % Specify a name/title in square brackets, or leave them out for no title
 	Let $G=\{x\in\mathbb{R}^2:|x|<3\}$ and denoted by: $x^0=(1,1)$; consider the function:
 	\begin{equation}
-	f(x)=\left\{\begin{aligned} & \mathrm{e}^{|x|} & & \text{si $|x-x^0|\leq 1/2$}\\
-	& 0 & & \text{si $|x-x^0|> 1/2$}\end{aligned}\right.
+		f(x)=\left\{\begin{aligned}                             & \mathrm{e}^{|x|} &  & \text{si $|x-x^0|\leq 1/2$} \\
+                                            & 0                &  & \text{si $|x-x^0|> 1/2$}\end{aligned}\right.
 	\end{equation}
 	The function $f$ has bounded support, we can take $A=\{x\in\mathbb{R}^2:|x-x^0|\leq 1/2+\epsilon\}$ for all $\epsilon\in\mathopen{]}0\,;5/2-\sqrt{2}\mathclose{[}$.
 \end{example}
@@ -459,7 +493,7 @@ This is an example of a remark.
 \section{Problems}\index{Problems}
 
 \begin{problem} % Specify a name/title in square brackets, or leave them out for no title
-	What is the average airspeed velocity of an unladen swallow?
+What is the average airspeed velocity of an unladen swallow?
 \end{problem}
 
 %------------------------------------------------
@@ -492,11 +526,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu
 	\centering % Horizontally center the table on the page
 	\begin{tabular}{L{0.15\textwidth} R{0.15\textwidth} R{0.15\textwidth}} % Specify column alignment with L{width}, C{width} and R{width} for fixed-width columns, or the default latex l, c and r for flexible-width columns
 		\toprule
-		\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+		\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
 		\midrule
-		Treatment 1 & 0.0003262 & 0.562 \\
-		Treatment 2 & 0.0015681 & 0.910 \\
-		Treatment 3 & 0.0009271 & 0.296 \\
+		Treatment 1         & 0.0003262           & 0.562               \\
+		Treatment 2         & 0.0015681           & 0.910               \\
+		Treatment 3         & 0.0009271           & 0.296               \\
 		\bottomrule
 	\end{tabular}
 	\caption{Table caption.}
@@ -509,11 +543,11 @@ Referencing \autoref{tab:example} in-text using its label.
 	\centering % Horizontally center the table on the page
 	\begin{tabular}{L{0.15\textwidth} R{0.15\textwidth} R{0.15\textwidth}} % Specify column alignment with L{width}, C{width} and R{width} for fixed-width columns, or the default latex l, c and r for flexible-width columns
 		\toprule
-		\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+		\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
 		\midrule
-		Treatment 1 & 0.0003262 & 0.562 \\
-		Treatment 2 & 0.0015681 & 0.910 \\
-		Treatment 3 & 0.0009271 & 0.296 \\
+		Treatment 1         & 0.0003262           & 0.562               \\
+		Treatment 2         & 0.0015681           & 0.910               \\
+		Treatment 3         & 0.0009271           & 0.296               \\
 		\bottomrule
 	\end{tabular}
 	\caption{Floating table.}
@@ -589,25 +623,25 @@ Referencing \autoref{fig:placeholder} in-text using its label.
 
 \begin{appendices}
 
-\renewcommand{\chaptername}{Appendix} % Change the chapter name to Appendix, i.e. "Appendix A: Title", instead of "Chapter A: Title" in the headers
+	\renewcommand{\chaptername}{Appendix} % Change the chapter name to Appendix, i.e. "Appendix A: Title", instead of "Chapter A: Title" in the headers
 
-%------------------------------------------------
+	%------------------------------------------------
 
-\chapter{Appendix Chapter Title}
+	\chapter{Appendix Chapter Title}
 
-\section{Appendix Section Title}
+	\section{Appendix Section Title}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor mi risus, quis tempor libero hendrerit at. Duis hendrerit placerat quam et semper. Nam ultricies metus vehicula arcu viverra, vel ullamcorper justo elementum. Pellentesque vel mi ac lectus cursus posuere et nec ex. Fusce quis mauris egestas lacus commodo venenatis. Ut at arcu lectus. Donec et urna nunc. Morbi eu nisl cursus sapien eleifend tincidunt quis quis est. Donec ut orci ex. Praesent ligula enim, ullamcorper non lorem a, ultrices volutpat dolor. Nullam at imperdiet urna. Pellentesque nec velit eget est euismod pretium.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor mi risus, quis tempor libero hendrerit at. Duis hendrerit placerat quam et semper. Nam ultricies metus vehicula arcu viverra, vel ullamcorper justo elementum. Pellentesque vel mi ac lectus cursus posuere et nec ex. Fusce quis mauris egestas lacus commodo venenatis. Ut at arcu lectus. Donec et urna nunc. Morbi eu nisl cursus sapien eleifend tincidunt quis quis est. Donec ut orci ex. Praesent ligula enim, ullamcorper non lorem a, ultrices volutpat dolor. Nullam at imperdiet urna. Pellentesque nec velit eget est euismod pretium.
 
-%------------------------------------------------
+	%------------------------------------------------
 
-\chapter{Appendix Chapter Title}
+	\chapter{Appendix Chapter Title}
 
-\section{Appendix Section Title}
+	\section{Appendix Section Title}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor mi risus, quis tempor libero hendrerit at. Duis hendrerit placerat quam et semper. Nam ultricies metus vehicula arcu viverra, vel ullamcorper justo elementum. Pellentesque vel mi ac lectus cursus posuere et nec ex. Fusce quis mauris egestas lacus commodo venenatis. Ut at arcu lectus. Donec et urna nunc. Morbi eu nisl cursus sapien eleifend tincidunt quis quis est. Donec ut orci ex. Praesent ligula enim, ullamcorper non lorem a, ultrices volutpat dolor. Nullam at imperdiet urna. Pellentesque nec velit eget est euismod pretium.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor mi risus, quis tempor libero hendrerit at. Duis hendrerit placerat quam et semper. Nam ultricies metus vehicula arcu viverra, vel ullamcorper justo elementum. Pellentesque vel mi ac lectus cursus posuere et nec ex. Fusce quis mauris egestas lacus commodo venenatis. Ut at arcu lectus. Donec et urna nunc. Morbi eu nisl cursus sapien eleifend tincidunt quis quis est. Donec ut orci ex. Praesent ligula enim, ullamcorper non lorem a, ultrices volutpat dolor. Nullam at imperdiet urna. Pellentesque nec velit eget est euismod pretium.
 
-%------------------------------------------------
+	%------------------------------------------------
 
 \end{appendices}
 
