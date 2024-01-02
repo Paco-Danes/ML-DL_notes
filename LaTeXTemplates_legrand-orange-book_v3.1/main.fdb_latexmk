@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber main"] 1689418604 "main.bcf" "main.bbl" "main" 1704212261
-  "main.bcf" 1704212260 107318 b96cc1e676671c9a8bc1563c2657d253 "pdflatex"
+["biber main"] 1689418604 "main.bcf" "main.bbl" "main" 1704212555
+  "main.bcf" 1704212554 107318 b96cc1e676671c9a8bc1563c2657d253 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1704212090 "main.idx" "main.ind" "main" 1704212261
-  "main.idx" 1704212260 1331 11abffa7877893f5bee5fe6f247b9fd5 "pdflatex"
+["makeindex main.idx"] 1704212090 "main.idx" "main.ind" "main" 1704212555
+  "main.idx" 1704212554 1331 11abffa7877893f5bee5fe6f247b9fd5 "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1704212256 "c:/Users/devin/Desktop/Università/Bachelor/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1704212261
+["pdflatex"] 1704212549 "c:/Users/devin/Desktop/Università/Bachelor/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" "main.pdf" "main" 1704212555
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/avantgar/pagd8r.tfm" 1136768654 4840 6a894dde946186de9a64269f0edd24e5 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/avantgar/pagd8t.tfm" 1136768654 7216 ce159066bacd323ac1e4527281f7a233 ""
@@ -263,16 +263,16 @@
   "Images/scalarNegMult.JPG" 1689406428 27657 7688d617cf2ea9f9dadaa670f596b7c4 ""
   "Images/vector_plot_1.jpg" 1689167858 50077 85f698d9fd6e4ab7b62aa58737a0abbe ""
   "LegrandOrangeBook.cls" 1689154264 34330 8b54c63dbc2df44de404d2768f953f7c ""
-  "c:/Users/devin/Desktop/Università/Bachelor/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1704212249 31542 4c315a42c9913e260668d58c05dac30a ""
-  "main.aux" 1704212260 18893 99639547ed13ff795216d5ce8f8ccc60 "pdflatex"
+  "c:/Users/devin/Desktop/Università/Bachelor/Ai & ML/Machine_deep_learning_notes/LaTeXTemplates_legrand-orange-book_v3.1/main.tex" 1704212548 31544 b04968ea8a827998692fac5f78ce2ec7 ""
+  "main.aux" 1704212554 18893 99639547ed13ff795216d5ce8f8ccc60 "pdflatex"
   "main.bbl" 1689415006 3291 5c460ef3bcb06a439ca62df86250700e "biber main"
   "main.ind" 1704212090 1201 d10f50d6c5193eec485e20b8c2e16f4e "makeindex main.idx"
-  "main.lof" 1704212260 951 17fb855216ef8cac24e038ebd77823ed "pdflatex"
-  "main.lot" 1704212260 355 5926ead3b4f29d9c76c9a2ee7b0ad57d "pdflatex"
-  "main.ptc" 1704212260 3700 01e0b5de9e0ae09bbe5eae07ebd5aaa1 "pdflatex"
-  "main.run.xml" 1704212260 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
-  "main.tex" 1704212249 31542 4c315a42c9913e260668d58c05dac30a ""
-  "main.toc" 1704212260 3610 45aa8e46057a742afcc0c9bd46d93fba "pdflatex"
+  "main.lof" 1704212554 951 17fb855216ef8cac24e038ebd77823ed "pdflatex"
+  "main.lot" 1704212554 355 5926ead3b4f29d9c76c9a2ee7b0ad57d "pdflatex"
+  "main.ptc" 1704212554 3700 01e0b5de9e0ae09bbe5eae07ebd5aaa1 "pdflatex"
+  "main.run.xml" 1704212554 2301 f06af3099c978185a0ac5347b2a69dfa "pdflatex"
+  "main.tex" 1704212548 31544 b04968ea8a827998692fac5f78ce2ec7 ""
+  "main.toc" 1704212554 3610 45aa8e46057a742afcc0c9bd46d93fba "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
