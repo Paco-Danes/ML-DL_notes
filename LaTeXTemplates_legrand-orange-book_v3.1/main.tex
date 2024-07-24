@@ -280,7 +280,15 @@ $$
 The trace of a matrix is the sum of the diagonal elements:
 $$trace(A) = \sum_{i}A_{ii}$$
 Transposing a matrix means swapping its rows with its columns; The first row becomes the first column, the second row becomes the second column and so on. We have the following properties:
-$$(A^T)^T = A \qquad (AB)^T = B^T A^T \qquad (A + B)^T = A^T + B^T$$
+$$(A^T)^T = A \qquad (AB)^T = B^T A^T \qquad (A + B)^T = A^T + B^T \qquad $$
+
+\subsection{Matrix Multiplication}
+Multiplying two matrices is possible \textit{only} if the number of columns of the first matrix matches the number of rows of the second matrix. The result is a matrix with the number of row of the first operand and the number of columns of the second operand.
+$$\text{Having} \quad A^{m\times n}, \,\, B^{n\times k} \quad \text{then} \quad AB = C $$
+$$\text{with} \quad C^{m\times k} \quad \text{and} \quad c_{ij} = a_{i,}^T \cdot b_{,j}$$
+Where we indicate with $a_{i,}$ the row $i$ of matrix $A$ and with $b_{,j}$ the column $j$ of matrix $B$. The operation is basically the pairwise dot product between the rows of $A$ and the columns of $B$, and their index indicates where to put the scalar result.
+Consequently, the dot product has another very common notation: if we intend a column vector as a matrix of shape $n \times 1$ the dot product between two column vectors is indicated as the matrix multiplication $x^T y$.
+
 
 %------------------------------------------------
 
@@ -469,8 +477,8 @@ This is an example of a remark.
 \begin{example} % Specify a name/title in square brackets, or leave them out for no title
 	Let $G=\{x\in\mathbb{R}^2:|x|<3\}$ and denoted by: $x^0=(1,1)$; consider the function:
 	\begin{equation}
-		f(x)=\left\{\begin{aligned}                             & \mathrm{e}^{|x|} &  & \text{si $|x-x^0|\leq 1/2$} \\
-                                            & 0                &  & \text{si $|x-x^0|> 1/2$}\end{aligned}\right.
+		f(x)=\left\{\begin{aligned}                                                 & \mathrm{e}^{|x|} &  & \text{si $|x-x^0|\leq 1/2$} \\
+                                                                & 0                &  & \text{si $|x-x^0|> 1/2$}\end{aligned}\right.
 	\end{equation}
 	The function $f$ has bounded support, we can take $A=\{x\in\mathbb{R}^2:|x-x^0|\leq 1/2+\epsilon\}$ for all $\epsilon\in\mathopen{]}0\,;5/2-\sqrt{2}\mathclose{[}$.
 \end{example}
